@@ -44,7 +44,7 @@ Not only will you discover the features, but my landing page also introduces you
 11. `git push origin develop` - to send you code for PR.
 12. Create a Pull Request (PR) from your branch `develop` to branch `master` of original repo.
 13. Replace `<your_account>` with your Github username in the
-  [DEMO LINK](https://Peti51.github.io/layout_dia/).
+  [DEMO LINK](https://Peti51.github.io/dia-layout/).
 14. Copy `DEMO LINK` to the PR description.
 
 > To update you PR repeat steps 7-11.
