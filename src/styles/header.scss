@@ -9,6 +9,7 @@
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
+  transition: background-image 0.5s ease-in-out;
 
   &__burger {
     margin-left: 35px;
@@ -186,4 +187,13 @@
 
 .header3 {
   background-image: url(../images/header-big-picture-third-one.png);
+}
+
+@keyframes backgroundAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
