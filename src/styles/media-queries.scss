@@ -131,6 +131,11 @@
         box-sizing: border-box;
         margin-top: 83px;
       }
+
+      &-title {
+        margin-bottom: 40px;
+        width: 320px;
+      }
     }
 
     &__big-photo {
@@ -140,10 +145,6 @@
       border-radius: 30px;
       object-fit: cover;
       top: 503px;
-    }
-
-    &__description-title {
-      width: 320px;
     }
 
     &__content {
@@ -310,6 +311,7 @@
 
       &__form {
         width: 90%;
+        max-width: 360px;
       }
 
       &-elements {
@@ -430,6 +432,7 @@
 
           &-big-title {
             margin-top: 16px;
+            width: 200px;
           }
         }
       }
@@ -518,6 +521,7 @@
     &__description-title {
       width: 100%;
       box-sizing: border-box;
+      margin-bottom: 0;
     }
 
     &__description-button {
@@ -552,7 +556,7 @@
 
       &__form {
         width: 100%;
-
+        max-width: 460px;
       }
 
       &__container-title {
@@ -931,5 +935,9 @@
 
   .third {
     margin-top: 28px;
+  }
+
+  .footer__form__form {
+    max-width: 460px;
   }
 }

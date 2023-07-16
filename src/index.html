@@ -39,7 +39,7 @@
     >
   </head>
   <body>
-    <header class="header" id="Home">
+    <header class="header header1" id="Home">
       <div class="header__BigContainer">
         <div class="container">
           <div class="header__content">
@@ -109,12 +109,12 @@
           </div>
           <div class="header__icon-container">
             <div class="header__arrow-container">
-              <div class="header__arrow">
+              <button class="header__arrow" id="prev-btn">
                 <img src="../src/images/Vector-(2).png" alt="arrow1">
-              </div>
-              <div class="header__arrow">
+              </button>
+              <button class="header__arrow" id="next-btn">
                 <img src="../src/images/Vector-(3).png" alt="arrow2">
-              </div>
+              </button>
             </div>
             <div class="header__text-container">
               <p class="header__text-title">
@@ -653,7 +653,7 @@
       </div>
     </footer>
   </body>
-  <script>
+  <script src="../src/scripts/main.js">
     const name = document.getElementById('name');
     const email = document.getElementById('email');
     const form = document.getElementById('form')
